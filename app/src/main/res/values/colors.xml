@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gettingStarted">#35b235</color>
+    <color name="gettingStartedTwo">#2d992d
+    </color>
+    <color name="gettingStartedThree">#267f26
+    </color>
+    <color name="yellow">#ffd700</color>
+    <color name="blueLight">#1488CC</color>
+    <color name="blueDark">#2b32b2</color>
+    <color name="dirtyWhite">#fdf5e6</color>
+    <color name="cream">#faebd7</color>
+
+
+</resources>

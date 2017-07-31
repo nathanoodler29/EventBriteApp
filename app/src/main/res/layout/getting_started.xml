@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiant"
+    tools:context="prototype.android.eventsapplication.GettingStarted">
+
+
+    <ImageView
+        android:id="@+id/gettingStartedImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/tickettwo" />
+
+    <TextView
+        android:id="@+id/gettingStartedHeading"
+
+        style="@style/headingFont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gettingStartedImage"
+        android:layout_marginTop="20dp"
+        android:text="Getting started"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/gettingStartedParagaph"
+
+        style="@style/paragraphFont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gettingStartedHeading"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="  Can't find anything to do in your local area? Or on holiday. Problem solved, click the button below! "
+        android:textAlignment="center" />
+
+
+    <Button
+        style="@style/paragraphFont"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gettingStartedParagaph"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_style"
+        android:text="Begin"
+        android:onClick="changeToSelectLocation"
+
+        />
+</RelativeLayout>
+
